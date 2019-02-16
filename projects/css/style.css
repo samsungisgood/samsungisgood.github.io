@@ -1,0 +1,18 @@
+.section1 {
+  color: rgba(24, 34, 65, 0.5);
+  background-color: #ff7070;
+  opacity: 1;
+}
+#font-style {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+#font-family {
+  font-family: "Chalkboard", "Product Sans", "serif";
+}
+
+.bold {
+  font-weight: bold;
+}
