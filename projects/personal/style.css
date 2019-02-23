@@ -1,8 +1,18 @@
-.section1{
-background-color:yellow;
+.section1 {
+  background-color: yellow;
 }
 #font-style {
-    font-size: 30px;
-    font-weight:bold;
-
+  font-size: 30px;
+  font-weight: bold;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+a:hover {
+  font-family: "impact";
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
 }

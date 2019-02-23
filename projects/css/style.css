@@ -16,3 +16,44 @@
 .bold {
   font-weight: bold;
 }
+.box {
+  border: solid 5px purple;
+  border-radius: 20px;
+  padding: 5px 10px 20px 40px;
+  margin: 100px;
+}
+h1 {
+  text-align: center;
+}
+ol {
+  list-style: lower-greek;
+}
+ul {
+  list-style: square;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px 25px;
+}
+th {
+  background-color: black;
+  color: white;
+}
+.link {
+  font-family: "Impact";
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+.link:hover {
+  color: red;
+  font-size: 20px;
+}
