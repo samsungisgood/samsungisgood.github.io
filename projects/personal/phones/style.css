@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Futura", "Arial", sans-serif;
+}
+.nav-section {
+  height: 60px;
+  background-color: #ffcdd2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link-section {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 5px 0px;
+}
+.nav-link:hover {
+  border-bottom: 3px black solid;
+}
+.nav-icon-section {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.25em;
+}
+.nav-icon {
+  color: black;
+  text-decoration: none;
+}
+.nav-icon:hover {
+  border-bottom: 3px black solid;
+}
+.nav-header {
+  color: black;
+  font-size: 2em;
+}
+.image-section {
+  height: 800px;
+  width: 100%;
+  background-image: url("https://media.wired.com/photos/5c6db53ffef5821a736af429/master/pass/samsungfold_top-1130992912.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.image-text {
+  color: pink;
+  padding-bottom: 50px;
+  font-size: 2.5em;
+  font-weight: bold;
+}

@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "helvetica", sans-serif;
+}
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+.nav-list {
+  height: 44px;
+  width: 1000px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-section {
+  background-color: #313131;
+  display: flex;
+  justify-content: center;
+}
+.nav-link:hover {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.nav-icon {
+  font-size: 1.5em;
+}
