@@ -1,0 +1,64 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 70px 1fr 80px;
+  height: 100%;
+}
+
+.navbar {
+  background-color: #fff176;
+  grid-column: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #00838f;
+}
+
+.nav-header {
+  font-family: fantasy;
+}
+
+.sidebar {
+  background-color: blue;
+  grid-row: 2/4;
+}
+
+.sidebar div {
+  padding: 15px 0px;
+  text-align: center;
+  font-weight: bold;
+  transition: 1.5s;
+}
+
+.sidebar div:hover {
+  background-color: black;
+  color: pink;
+}
+
+.body {
+  background-image: url(https://banner2.kisspng.com/20180328/byq/kisspng-squidward-tentacles-patrick-star-drawing-funny-5abbc348e1add6.2099284815222546649244.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: pink;
+  font-size: 30px;
+}
