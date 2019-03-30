@@ -1,5 +1,50 @@
+html,
+body {
+  height: 100%;
+}
+
 * {
   padding: 0;
   margin: 0;
   font-family: "helvetica", sans-serif;
+}
+
+.topbar-header {
+  font-family: fantasy;
+  text-align: center;
+  background-color: blue;
+  position: fixed;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 100%;
+}
+
+.link {
+  margin: 50px;
+}
+
+.sidebar {
+  background-color: red;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCOb8-BjoRSsAqvfgtsqp0G2fa8s8zBcCR8XBv9FfEcN_XHqnp");
+  background-position: center;
+  background-size: contain;
+}
+
+.bottom {
+  text-align: center;
+  font-size: 50px;
+  background-color: pink;
 }
